@@ -27,10 +27,11 @@ docker load -i aims_tbi_pred.tar
 The test data should consist of `.nii.gz` format images, for example:
 
 ```
-scan_0001_T1.nii.gz
-scan_0017_T1.nii.gz
-scan_0036_T1.nii.gz
-...
+test_data/
+  scan_0001_T1.nii.gz
+  scan_0017_T1.nii.gz
+  scan_0036_T1.nii.gz
+  ...
 ```
 
 Place these files in a folder like:
@@ -76,11 +77,11 @@ python predict.py \
 
 **Parameter Descriptions:**
 
-| Parameter             | Description                                         |
-| --------------------- | --------------------------------------------------- |
-| `--image_dir`         | Path to raw `.nii.gz` images (mounted path)         |
-| `--image_process_dir` | Temporary directory for image preprocessing         |
-| `--pred_save_path`    | Directory to save prediction results (mounted path) |
+| Parameter             | Description                                            |
+| --------------------- | ------------------------------------------------------ |
+| `--image_dir`         | Path to raw `.nii.gz` images (mounted path)            |
+| `--image_process_dir` | Temporary directory for image preprocessing (in image) |
+| `--pred_save_path`    | Directory to save prediction results (mounted path)    |
 
 ---
 
