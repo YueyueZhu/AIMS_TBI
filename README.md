@@ -1,6 +1,6 @@
 # AIMS\_TBI Prediction Docker Guide
 
-This guide will walk you through how to build and run the Docker image for this project, which is used for brain image segmentation.
+This guide will walk you through how to load and run the Docker image for this project, which is used for brain image segmentation.
 
 ---
 
