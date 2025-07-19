@@ -68,6 +68,8 @@ Explanation:
 
 Once inside the container, run the following command:
 
+If you successfully mount the path, run the following code directly without modifying the path.
+
 ```bash
 python predict.py \
   --image_dir /data/test_data \
