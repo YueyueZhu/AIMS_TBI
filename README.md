@@ -9,7 +9,8 @@ This guide will walk you through how to load and run the Docker image for this p
 First, make sure you have the following items in the same directory as the `Dockerfile`:
 
 * `aims_tbi_pred.tar.gz`  — the docker image, which has my Model and Model Weight
-* In this image, my code path is: /workspace/AIMS_TBI      My weight path is: /workspace/AIMS_TBI/parameter/best_model_AIMS_13.pth
+* In this image, my code path is: /workspace/AIMS_TBI
+* My weight path is: /workspace/AIMS_TBI/parameter/best_model_AIMS_13.pth
 
 **To load the image, run:**
 
