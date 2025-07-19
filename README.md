@@ -45,7 +45,7 @@ Place these files in a folder like:
 
 Use the `-v` option to mount your test data and specify the prediction output directory.
 
-Because this image contains code and weights, only the test data input and pred output paths need to be mapped.
+Because this image contains code and weights, only the test data input and prediction output paths need to be mapped.
 
 ```bash
 docker run -it --gpus all --name aims_tbi_pred_container \
